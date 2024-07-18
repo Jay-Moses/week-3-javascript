@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals and DOM Manipulation</title>
+    <!-- Link to Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Fundamentals</h1>
+        <p id="result">Result of number 5 and 3 will be displayed here</p>
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+    </div>
+    
+    <div class="container">
+        <h2>Interactive Chart</h2>
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+</body>
+</html>
